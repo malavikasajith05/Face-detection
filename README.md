@@ -1,4 +1,4 @@
-<h># Face detection with mask or no mask </h><br>
+<h> Face detection with mask or no mask </h><br>
 
 This uses a CNN and code trains a deep learning model to detect whether a person is wearing a face mask or not in images. 
 
