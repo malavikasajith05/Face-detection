@@ -23,7 +23,7 @@ pip install tensorflow keras opencv-python-headless numpy imutils matplotlib sci
 
 ## Code Overview:
 
-### 1. Real-Time Video Mask Detection (`video_mask_detection.py`)
+### 1. Real-Time Video Mask Detection (`detect_mask_video.py`)
 
 This script performs real-time face mask detection using a webcam. It captures video frames, detects faces, and predicts whether each detected face is wearing a mask.
 
@@ -39,7 +39,7 @@ This script performs real-time face mask detection using a webcam. It captures v
 
 4. The video stream will open, and faces will be detected and labeled as either "Face-Detected with mask" or "Face-Detected with No Mask".
 
-### 2. Image Mask Detection (`image_mask_detection.py`):
+### 2. Image Mask Detection (`detect_pic.py`):
 
 This script performs face mask detection on a single input image. It loads the image, detects faces, predicts mask usage, and saves or displays the output image with labels.
 
@@ -56,7 +56,7 @@ This script performs face mask detection on a single input image. It loads the i
 
 5. The output image will be saved as `output.jpg` and displayed with labels.
 
-### 3. Model Training (`train_model.py`)
+### 3. Model Training (`train_mask_detector.py`)
 
 This script trains a mask detection model using the MobileNetV2 architecture. It prepares the dataset, trains the model, and evaluates its performance.
 
