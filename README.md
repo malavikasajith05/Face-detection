@@ -73,9 +73,9 @@ This script trains a mask detection model using the MobileNetV2 architecture. It
 
 ## Files
 
-- `video_mask_detection.py`: Real-time mask detection using a webcam.
-- `image_mask_detection.py`: Mask detection on a single image.
-- `train_model.py`: Model training and evaluation script.
+- `detect_mask_video.py`: Real-time mask detection using a webcam.
+- `detect_pic.py`: Mask detection on a single image.
+- `train_mask_detector.py`: Model training and evaluation script.
 
 
 
